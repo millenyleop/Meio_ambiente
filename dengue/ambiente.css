@@ -1,0 +1,117 @@
+/* ambiente.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    font-weight: 600;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, #020202, #00ff7b);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #000;
+    transition: 150ms;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    color: #fff;
+    max-width: 50%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 300px;
+    margin-right: 800px;
+    word-wrap: break-word;
+    margin-left: 20px;
+}
+
+.about h2 {
+    font-size: 2.4rem;
+}
+
+.french-fries {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    margin-top: 400px;
+    left: -100px;
+    pointer-events: none;
+}
+
+.french-fries img {
+    margin-left: 90px;
+    width: 340px;
+    margin-top: -400px;
+}
+
+.foto {
+    margin-left: 850px;
+    margin-top: -600px;
+    
+}
+
+.footer-container {
+    background-color: #33333382;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 1400px; 
+    margin-top: auto; 
+}
+
